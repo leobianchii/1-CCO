@@ -1,0 +1,45 @@
+body {
+margin: 0%;
+background-color: black;
+font-family: monospace;
+}
+
+
+
+
+
+.header {
+border-bottom: 3px solid aqua;
+
+}
+
+.header .container {
+    border: 3px solid blue;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+.Titulo {
+    color: aqua;
+    border: 3px solid red;
+    width: fit-content;
+}
+
+.navbar {
+    color: goldenrod;
+    list-style: none;
+    border: 3px solid green;
+    display: flex; 
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 0;
+    align-items: center;
+}
