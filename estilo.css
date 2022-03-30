@@ -1,45 +1,133 @@
-body {
-margin: 0%;
-background-color: black;
-font-family: monospace;
+body{
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
 }
 
-
-
-
-
-.header {
-border-bottom: 3px solid aqua;
+.header{
+    border-bottom: 3px solid aqua;
 
 }
 
-.header .container {
-    border: 3px solid blue;
+.container {
+    
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 
+
+}
+.aqui{
+    font-weight: 800;
 }
 
-
-
-
-
-
-.Titulo {
+.titulo {
     color: aqua;
-    border: 3px solid red;
     width: fit-content;
+    
+    
 }
 
-.navbar {
-    color: goldenrod;
+.nav_bar {
+    
     list-style: none;
-    border: 3px solid green;
-    display: flex; 
+    color: white;
+    display: flex;
     justify-content: space-evenly;
-    width: 300px;
+    width: 500px;
     padding: 0;
     align-items: center;
+    margin: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgb(217, 255, 0);
+    
 }
+.banner {
+    background-image: url('bg-jelly-fish-para-home.png');
+    height: 600px;
+    color: white;
+    display: flex;
+    
+}
+.banner .container {
+    justify-content: center;
+}
+.banner .container p span{
+    font-weight: 1000;
+}
+
+.banner .container p {
+    justify-content: center;
+    font-size: 36px;
+    width: 10%;
+}
+/* fim do banner */
+.social {
+    background-color: white;
+    display: flex;
+    justify-content: space-around
+}
+.boxes {
+    display: flex;
+    
+}
+
+.box img{
+    width: 200px;
+    
+}
+.box {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.rodape  {
+    background-color: aqua;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+a {
+    text-decoration: none;
+    color: rgb(217, 255, 0) ;
+}
+.container .card {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    color:blueviolet;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.card h1 {
+    font-size: 30px;
+}
+.card h4 {
+    font-size: 16px;
+}
+.card input{
+    border-radius: 5px;
+    border: solid violet;
+    text-align: center;
+    padding: 10px;
+}
+.card button {
+    background-color: purple;
+    margin-top: 35px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+
+
+
