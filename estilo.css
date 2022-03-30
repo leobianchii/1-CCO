@@ -85,12 +85,20 @@ body{
     align-content: center;
 }
 .rodape  {
-    background-color: aqua;
+    background-color: rgb(3, 87, 87);
     height: 150px;
     display: flex;
-    justify-content: center;
+    color: white;
+    font-size: 15px;
     
 }
+
+.rodape .container {
+
+justify-content: center;
+
+}
+
 a {
     text-decoration: none;
     color: rgb(217, 255, 0) ;
